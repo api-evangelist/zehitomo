@@ -1,7 +1,14 @@
 aid: zehitomo
 name: Zehitomo
-description: Zehitomo is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zehitomo is a Tokyo-based online marketplace that matches consumers in Japan with local
+  professionals across hundreds of service categories — including photographers, personal
+  trainers, house cleaners, graphic and web designers, videographers, tax accountants,
+  interpreters, construction and repair trades, and business consultants. Clients describe
+  the job they need done and receive quotes and proposals from vetted local pros, while
+  professionals pay to respond to matched leads. Founded in 2015 and backed by 500 Global,
+  Zehitomo runs a consumer-facing web and mobile product; it does not publish a public
+  developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/zehitomo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://res.cloudinary.com/zehitomo/image/upload/v1652747398/assets/openGraphLogo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Local Services
+- Marketplace
+- Japan
+- Professional Services
+- Matching
+- Gig Economy
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://zehitomo.com
+- type: Blog
+  url: https://www.zehitomo.com/blog
+- type: Support
+  url: https://support.zehitomo.com/hc/ja
+- type: Login
+  url: https://www.zehitomo.com/sign-in
+- type: TermsOfService
+  url: https://www.zehitomo.com/static/pdf/terms-of-use-clients-20250303.pdf
+- type: PrivacyPolicy
+  url: https://www.zehitomo.com/static/pdf/privacy-policy-20260604.pdf
+- type: GitHubOrganization
+  url: https://github.com/zehitomo
+- type: DomainSecurity
+  url: security/zehitomo-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
